@@ -1,0 +1,15 @@
+   /*REDIRECCION CONTACTO*/
+   
+   @import"colores";
+   .redireccion {
+       background-image: url(../images/gris-mas-claro.jpg);
+       background-size: cover;
+       .redireccionContacto {
+           font-size: 35px;
+           color: $rosa;
+           .redireccionaContacto {
+               font-size: 30px;
+               color: $rosa;
+           }
+       }
+   }

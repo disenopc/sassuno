@@ -1,0 +1,10 @@
+/*TRANSICIONES, TRANSFORMACIONES*/
+
+.mainTitle {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: heartBeat;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s;
+    /* don't forget to set a duration! */
+}

@@ -1,0 +1,127 @@
+    @media only screen and (max-width:599px) {
+    /*INDEX*/
+    /*header*/
+    header {
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(250, 112, 153, 0.692) 0%, rgba(254, 225, 64, 0.849) 100%), url(../images/background.jpg);
+    }
+    .menuNav {
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 100px;
+        background: gray;
+        text-align: left;
+        transition: all 0.5s;
+        list-style: none;
+        text-decoration: none;
+        z-index: 1;
+    }
+    .menuNav ul li {
+        display: none;
+        line-height: 30px;
+        margin: 10px 30px 10px 10px;
+        transition: all 0.5s;
+        padding: 0 0 0 0;
+    }
+    .menuNav ul li a {
+        color: gray;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Raleway';
+        z-index: -2;
+    }
+    .menuNav li a.active,
+    .menuNav li a:hover {
+        color: #EBC81A;
+        transition: 0.3s;
+    }
+    #check {
+        display: none;
+    }
+    #check:checked~.menuNav {
+        height: 100vh;
+        display: block;
+    }
+    #check:checked~.menuNav li {
+        display: block;
+    }
+    .bar-btn {
+        font-size: 45px;
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 400px;
+        cursor: pointer;
+        color: gray;
+    }
+    .headerLogo {
+        width: 100px;
+    }
+    /*main*/
+    .mainTitle {
+        font-size: 95px;
+        color: #EBC81A;
+        text-align: center;
+        padding: 35px 20px 35px 20px;
+    }
+    .mainp {
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+    .miFoto {
+        width: 90%;
+        margin-left: 30px;
+        margin: 30px;
+        order: -1;
+        display: block;
+        padding: 0;
+    }
+    .mainTitle {
+        margin: 0px;
+    }
+    /*servicios*/
+    .titles {
+        font-size: 50px;
+        padding-right: 0px;
+    }
+    .servicios h3 {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .servicios {
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+    /*contacto*/
+    .infoFlex h3 {
+        font-size: 25px;
+    }
+    .infoFlex p {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 20px;
+    }
+    .formFlex label {
+        font-size: 25px;
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+    .entradaFormIndex {
+        width: 50vh;
+        height: 10%;
+        border: 2px solid #EBC81A;
+        margin: 0%;
+        justify-items: right;
+    }
+    /*footer*/
+    .menuFooterFlex li {
+        list-style-type: none;
+        padding: 0px;
+        text-align: center;
+    }

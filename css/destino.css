@@ -1,0 +1,59 @@
+/*Estilos Index*/
+/*Variables de color*/
+/*Variables de color*/
+/*HEADER*/
+header {
+  background-image: url(../images/gris-mas-claro.jpg);
+  background-size: cover; }
+  header .headerLogo {
+    width: 200px;
+    margin-left: 20px; }
+    header .headerLogo #menu li a {
+      font-size: 18px;
+      color: gray; }
+      header .headerLogo #menu li a #menu button {
+        font-size: 18px;
+        font-weight: bold; }
+
+/*MAIN*/
+.main {
+  background-image: url(../images/gris-mas-claro.jpg);
+  background-size: cover; }
+  .main .primerParrafo {
+    font-size: 20px;
+    margin-left: 55%;
+    margin-right: 55%;
+    margin-bottom: 0; }
+
+/*SERVICIOS*/
+/*Variables de color*/
+#titulos {
+  color: gray; }
+  #titulos .servicios h3 {
+    margin: 30px;
+    padding: 15px; }
+    #titulos .servicios h3 .col img {
+      width: 70%; }
+
+/*REDIRECCION CONTACTO*/
+/*Variables de color*/
+.redireccion {
+  background-image: url(../images/gris-mas-claro.jpg);
+  background-size: cover; }
+  .redireccion .redireccionContacto {
+    font-size: 35px;
+    color: #EB02B4; }
+    .redireccion .redireccionContacto .redireccionaContacto {
+      font-size: 30px;
+      color: #EB02B4; }
+
+/*FOOTER*/
+.footerFinP {
+  background-image: url(../images/gris-mas-claro.jpg);
+  background-size: cover; }
+  .footerFinP .seguimeEnRedesDos {
+    font-weight: bold;
+    font-size: 25px;
+    color: #EBC81A; }
+    .footerFinP .seguimeEnRedesDos .footerLogo img {
+      width: 200px; }
