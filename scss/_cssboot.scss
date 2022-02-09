@@ -12,36 +12,6 @@
                                                         a.text-light {
                                                             text-decoration: none;
                                                         }
-                                                        
-                                                        @media (max-width: 575.98px) {
-                                                            .headerLogo {
-                                                                width: 200px;
-                                                                margin-left: 150px;
-                                                                ;
-                                                            }
-                                                            .main,
-                                                            .footerFinP {
-                                                                display: flex;
-                                                                flex-direction: column;
-                                                                text-align: center;
-                                                                justify-content: center;
-                                                            }
-                                                            .servicios h3 {
-                                                                margin: 5px;
-                                                                padding: 5px;
-                                                            }
-                                                            .primerParrafo {
-                                                                margin: 0px;
-                                                                padding: 0px;
-                                                            }
-                                                            .tituloHi {
-                                                                margin: 0;
-                                                                padding: 0;
-                                                            }
-                                                            .redireccionContacto {
-                                                                font-weight: bold;
-                                                            }
-                                                        }
                                                         /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
                                                         
                                                         .tituloHi {
