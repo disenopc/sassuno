@@ -14,13 +14,13 @@ header {
   header .headerLogo {
     width: 200px;
     margin-left: 20px; }
-    header .headerLogo nav {
-      background-image: linear-gradient(to right, #EB02B4 0%, #EBC81A), url(../images/gris-mas-claro.jpg);
+    header .headerLogo .navbar {
+      background-image: linear-gradient(to right, #EB02B4, #EBC81A), url(../images/gris-mas-claro.jpg);
       margin-top: auto; }
-      header .headerLogo nav #menu li a {
+      header .headerLogo .navbar #menu li a {
         font-size: 18px;
         color: gray; }
-        header .headerLogo nav #menu li a #menu button {
+        header .headerLogo .navbar #menu li a #menu button {
           font-size: 18px;
           font-weight: bold; }
 
@@ -62,6 +62,15 @@ a.text-light {
       font-size: 30px;
       color: #EB02B4; }
 
+/*NEWSLETTER*/
+/*Variables de color*/
+a.text-light {
+  text-decoration: none; }
+
+.labelNewsletter {
+  font-size: 30px;
+  color: #EBC81A; }
+
 /*FOOTER*/
 .footerFinP {
   background-image: url(../images/gris-mas-claro.jpg);
@@ -70,5 +79,91 @@ a.text-light {
     font-weight: bold;
     font-size: 25px;
     color: #EBC81A; }
-    .footerFinP .seguimeEnRedesDos .footerLogo img {
+    .footerFinP .seguimeEnRedesDos .footerLogo {
       width: 200px; }
+
+@media (max-width: 575.98px) {
+  .headerLogo {
+    width: 200px;
+    margin-left: 150px; }
+  .main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+    .main .tituloHi {
+      margin: 0;
+      padding: 0; }
+      .main .tituloHi .primerParrafo {
+        margin: 0px;
+        padding: 0px; }
+  .servicios h3 {
+    margin: 5px;
+    padding: 5px; }
+  .redireccionContacto {
+    font-weight: bold; }
+  .footerFinP {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; } }
+
+/*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
+.tituloHi {
+  margin: 0 0.5rem;
+  animation: heartBeat;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s;
+  /* don't forget to set a duration! */ }
+
+a:hover {
+  font-weight: bold; }
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #EBC81A; }
+
+.redes:hover {
+  width: 50px;
+  transition: 0.9s; }
+
+/*FLEXBOX*/
+.menuNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end; }
+  .menuNav .mainFlex {
+    display: flex;
+    flex-direction: row; }
+    .menuNav .mainFlex .mainColumn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .menuNav .mainFlex .mainColumn .serviciosFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; }
+        .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center; }
+            .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .footerFlex {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              align-items: center; }
+              .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .footerFlex .redesSociales {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; }

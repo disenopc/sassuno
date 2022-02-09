@@ -7,8 +7,8 @@
             .headerLogo {
                 width: 200px;
                 margin-left: 20px;
-                nav {
-                    background-image: linear-gradient(to right, $rosa 0%, $amarillo), url(../images/gris-mas-claro.jpg);
+                .navbar {
+                    background-image: linear-gradient(to right, $rosa, $amarillo), url(../images/gris-mas-claro.jpg);
                     margin-top: auto;
                     #menu li a {
                         font-size: 18px;
