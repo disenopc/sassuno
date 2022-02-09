@@ -1,23 +1,19 @@
-        @import "colores";
-        /*HEADER*/
-        
-        header {
-            background-image: url(../images/gris-mas-claro.jpg);
-            background-size: cover;
-            .headerLogo {
-                width: 200px;
-                margin-left: 20px;
-                .nav {
-                    background-image: linear-gradient(to right, $rosa, $amarillo), url(../images/gris-mas-claro.jpg)cover;
-                    margin-top: auto;
-                    #menu li a {
-                        font-size: 18px;
-                        color: $gris;
-                        #menu button {
-                            font-size: 18px;
-                            font-weight: bold;
-                        }
-                    }
+    @import "colores";
+    /*HEADER*/
+    
+    header {
+        background-image: url(../images/gris-mas-claro.jpg);
+        background-size: cover;
+        .headerLogo {
+            width: 200px;
+            margin-left: 20px;
+            #menu li a {
+                font-size: 18px;
+                color: $gris;
+                #menu button {
+                    font-size: 18px;
+                    font-weight: bold;
                 }
             }
         }
+    }
