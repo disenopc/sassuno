@@ -1,14 +1,14 @@
-  /*FOOTER*/
-  
-  .footerFinP {
-      background-image: url(../images/gris-mas-claro.jpg);
-      background-size: cover;
-      .seguimeEnRedesDos {
-          font-weight: bold;
-          font-size: 25px;
-          color: $amarillo;
-          .footerLogo {
-              width: 200px;
-          }
-      }
-  }
+/*FOOTER*/
+
+.footerFinP {
+    background-image: url(../images/gris-mas-claro.jpg);
+    background-size: cover;
+    .seguimeEnRedesDos {
+        font-weight: bold;
+        font-size: 25px;
+        color: $amarillo;
+        .footerLogo {
+            width: 200px;
+        }
+    }
+}

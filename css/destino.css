@@ -14,25 +14,32 @@ header {
   header .headerLogo {
     width: 200px;
     margin-left: 20px; }
-    header .headerLogo .navbar {
-      background-image: linear-gradient(to right, #EB02B4, #EBC81A), url(../images/gris-mas-claro.jpg);
+    header .headerLogo .nav {
+      background-image: linear-gradient(to right, #EB02B4, #EBC81A), url(../images/gris-mas-claro.jpg) cover;
       margin-top: auto; }
-      header .headerLogo .navbar #menu li a {
+      header .headerLogo .nav #menu li a {
         font-size: 18px;
         color: gray; }
-        header .headerLogo .navbar #menu li a #menu button {
+        header .headerLogo .nav #menu li a #menu button {
           font-size: 18px;
           font-weight: bold; }
 
 /*MAIN*/
+/*Variables de color*/
+a.text-light {
+  text-decoration: none; }
+
 .main {
   background-image: url(../images/gris-mas-claro.jpg);
   background-size: cover; }
-  .main .primerParrafo {
-    font-size: 20px;
-    margin-left: 55%;
-    margin-right: 55%;
-    margin-bottom: 0; }
+  .main h1 {
+    color: #EBC81A;
+    font-size: 75px; }
+    .main h1 .primerParrafo {
+      font-size: 20px;
+      margin-left: 55%;
+      margin-right: 55%;
+      margin-bottom: 0; }
 
 /*SERVICIOS*/
 /*Variables de color*/
@@ -44,8 +51,6 @@ a.text-light {
   #titulos .servicios h3 {
     margin: 30px;
     padding: 15px; }
-    #titulos .servicios h3 .col img {
-      width: 70%; }
 
 /*REDIRECCION CONTACTO*/
 /*Variables de color*/
@@ -144,7 +149,8 @@ a:hover {
       .menuNav .mainFlex .mainColumn .serviciosFlex {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly; }
+        justify-content: space-evenly;
+        align-items: center; }
         .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex {
           display: flex;
           flex-direction: column;
