@@ -1,6 +1,12 @@
 /*Estilos Index*/
 /*Variables de color*/
+a.text-light {
+  text-decoration: none; }
+
 /*Variables de color*/
+a.text-light {
+  text-decoration: none; }
+
 /*HEADER*/
 header {
   background-image: url(../images/gris-mas-claro.jpg);
@@ -8,12 +14,15 @@ header {
   header .headerLogo {
     width: 200px;
     margin-left: 20px; }
-    header .headerLogo #menu li a {
-      font-size: 18px;
-      color: gray; }
-      header .headerLogo #menu li a #menu button {
+    header .headerLogo nav {
+      background-image: linear-gradient(to right, #EB02B4 0%, #EBC81A), url(../images/gris-mas-claro.jpg);
+      margin-top: auto; }
+      header .headerLogo nav #menu li a {
         font-size: 18px;
-        font-weight: bold; }
+        color: gray; }
+        header .headerLogo nav #menu li a #menu button {
+          font-size: 18px;
+          font-weight: bold; }
 
 /*MAIN*/
 .main {
@@ -27,6 +36,9 @@ header {
 
 /*SERVICIOS*/
 /*Variables de color*/
+a.text-light {
+  text-decoration: none; }
+
 #titulos {
   color: gray; }
   #titulos .servicios h3 {
@@ -37,6 +49,9 @@ header {
 
 /*REDIRECCION CONTACTO*/
 /*Variables de color*/
+a.text-light {
+  text-decoration: none; }
+
 .redireccion {
   background-image: url(../images/gris-mas-claro.jpg);
   background-size: cover; }

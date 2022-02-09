@@ -1,10 +1,23 @@
-/*TRANSICIONES, TRANSFORMACIONES*/
+/*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
 
-.mainTitle {
-    display: inline-block;
+.tituloHi {
     margin: 0 0.5rem;
     animation: heartBeat;
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 5s;
     /* don't forget to set a duration! */
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #EBC81A;
+}
+
+.redes:hover {
+    width: 50px;
+    transition: 0.9s;
 }
