@@ -1,5 +1,6 @@
 /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
 
+@import"colores";
 .tituloHi {
     margin: 0 0.5rem;
     animation: heartBeat;
@@ -8,13 +9,9 @@
     /* don't forget to set a duration! */
 }
 
-a:hover {
-    font-weight: bold;
-}
-
 .nav-link:hover {
     font-weight: bold;
-    color: #EBC81A;
+    color: $amarillo;
 }
 
 .redes:hover {

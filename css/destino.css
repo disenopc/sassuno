@@ -94,15 +94,13 @@ header {
     justify-content: center; } }
 
 /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
+/*Variables de color*/
 .tituloHi {
   margin: 0 0.5rem;
   animation: heartBeat;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 5s;
   /* don't forget to set a duration! */ }
-
-a:hover {
-  font-weight: bold; }
 
 .nav-link:hover {
   font-weight: bold;
@@ -158,3 +156,19 @@ body {
   font-family: 'Raleway', sans-serif;
   width: 100%;
   overflow-x: hidden; }
+
+.boton-facebook {
+  background-color: #3a5795;
+  border: #3a5795; }
+
+.boton-mail {
+  background-color: #c25e30;
+  border: #c25e30; }
+
+.boton-instagram {
+  background-color: #8f348f;
+  border: #8f348f; }
+
+.boton-whatsapp {
+  background-color: #41da41;
+  border: #41da41; }
