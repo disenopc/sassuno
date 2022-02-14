@@ -2082,9 +2082,9 @@ progress {
 .form-control:focus {
     color: #212529;
     background-color: #fff;
-    border-color: #86b7fe;
+    border-color: #EBC81A;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    box-shadow: #EBC81A;
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2405,8 +2405,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: #EBC81A;
+    border-color: #EBC81A;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -2418,8 +2418,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type=checkbox]:indeterminate {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: #EBC81A;
+    border-color: #EBC81A;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
