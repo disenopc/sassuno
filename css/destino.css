@@ -3,7 +3,7 @@
 /*Variables de color*/
 /*HEADER*/
 header {
-  background-image: url(../images/gris-mas-claro.jpg);
+  background-image: url(../images/grisclaro-opt.jpg);
   background-size: cover; }
   header .headerLogo {
     width: 200px;
@@ -18,7 +18,7 @@ header {
 /*MAIN*/
 /*Variables de color*/
 .main {
-  background-image: url(../images/gris-mas-claro.jpg);
+  background-image: url(../images/grisclaro-opt.jpg);
   background-size: cover; }
   .main h1 {
     color: #EBC81A;
@@ -58,7 +58,7 @@ header {
 
 /*FOOTER*/
 .footerFinP {
-  background-image: url(../images/gris-mas-claro.jpg);
+  background-image: url(../images/grisclaro-opt.jpg);
   background-size: cover; }
   .footerFinP .seguimeEnRedesDos {
     font-weight: bold;
