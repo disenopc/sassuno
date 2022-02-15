@@ -157,18 +157,19 @@ body {
   width: 100%;
   overflow-x: hidden; }
 
+/*Variables de color*/
 .boton-facebook {
-  background-color: #3a5795;
-  border: #3a5795; }
+  background-color: #EBC81A;
+  border: #EBC81A; }
 
 .boton-mail {
-  background-color: red;
-  border: red; }
+  background-color: #EB02B4;
+  border: #EB02B4; }
 
 .boton-instagram {
-  background-color: #8f348f;
-  border: #8f348f; }
+  background-color: #f3da6b;
+  border: #f3da6b; }
 
 .boton-whatsapp {
-  background-color: #41da41;
-  border: #41da41; }
+  background-color: #eb7bbc;
+  border: #eb7bbc; }
