@@ -1,0 +1,14 @@
+/*MIXIN*/
+
+@mixin letra( $fuente, $tamanio) {
+    font-family: $fuente;
+    font-size: $tamanio;
+}
+
+.tituloHi {
+    @include letra("oswald", 85px)
+}
+
+#titulos {
+    @include letra('raleway', 85px)
+}

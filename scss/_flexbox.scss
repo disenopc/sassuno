@@ -14,8 +14,7 @@
               align-items: center;
               justify-content: center;
               .serviciosFlex {
-                  display: flex;
-                  flex-direction: row;
+                  @extend .mainFlex;
                   justify-content: space-evenly;
                   align-items: center;
                   .infoFlex {
@@ -24,11 +23,8 @@
                       justify-content: center;
                       align-items: center;
                       .formFlex {
-                          display: flex;
-                          justify-content: center;
-                          flex-direction: column;
+                          @extend .mainColumn;
                           flex-wrap: wrap;
-                          align-items: center;
                           .footerFlex {
                               width: 100%;
                               display: flex;

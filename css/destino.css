@@ -1,4 +1,4 @@
-/*Estilos Index*/
+/*Estilos Propios*/
 /*Variables de color*/
 /*Variables de color*/
 /*HEADER*/
@@ -22,7 +22,7 @@ header {
   background-size: cover; }
   .main h1 {
     color: #EBC81A;
-    font-size: 85px; }
+    font-weight: bold; }
     .main h1 .primerParrafo {
       font-size: 20px;
       margin-left: 55%;
@@ -40,7 +40,7 @@ header {
 /*REDIRECCION CONTACTO*/
 /*Variables de color*/
 .redireccion {
-  background-image: url(../images/gris-mas-claro.jpg);
+  background-image: url(../images/grisclaro-opt.jpg);
   background-size: cover; }
   .redireccion .redireccionContacto,
   .redireccion .redireccionaContacto {
@@ -106,6 +106,37 @@ header {
   font-weight: bold;
   color: #EBC81A; }
 
+nav-item a::before, nav-item a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0; }
+
+nav-item a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%); }
+
+nav-item a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%); }
+
+nav-item a:hover:before, nav-item a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1; }
+
+nav-item a:hover {
+  color: #3DA35D; }
+
 .redes:hover {
   width: 50px;
   transition: 0.9s; }
@@ -116,30 +147,24 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end; }
-  .menuNav .mainFlex {
+  .menuNav .mainFlex, .menuNav .mainFlex .mainColumn .serviciosFlex, .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .serviciosFlex {
     display: flex;
     flex-direction: row; }
-    .menuNav .mainFlex .mainColumn {
+    .menuNav .mainFlex .mainColumn, .menuNav .mainFlex .mainColumn .serviciosFlex .mainColumn, .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .serviciosFlex .mainColumn, .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      .menuNav .mainFlex .mainColumn .serviciosFlex {
-        display: flex;
-        flex-direction: row;
+      .menuNav .mainFlex .mainColumn .serviciosFlex, .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .serviciosFlex {
         justify-content: space-evenly;
         align-items: center; }
-        .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex {
+        .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex, .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .serviciosFlex .infoFlex {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center; }
           .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center; }
+            flex-wrap: wrap; }
             .menuNav .mainFlex .mainColumn .serviciosFlex .infoFlex .formFlex .footerFlex {
               width: 100%;
               display: flex;
@@ -173,3 +198,12 @@ body {
 .boton-whatsapp {
   background-color: #eb7bbc;
   border: #eb7bbc; }
+
+/*MIXIN*/
+.tituloHi {
+  font-family: "oswald";
+  font-size: 85px; }
+
+#titulos {
+  font-family: "raleway";
+  font-size: 85px; }
