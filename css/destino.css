@@ -57,6 +57,7 @@ header {
   color: #EBC81A; }
 
 /*FOOTER*/
+/*Variables de color*/
 .footerFinP {
   background-image: url(../images/grisclaro-opt.jpg);
   background-size: cover; }
@@ -66,6 +67,10 @@ header {
     color: #EBC81A; }
     .footerFinP .seguimeEnRedesDos .footerLogo {
       width: 200px; }
+
+.seguimeEnRedesDosA {
+  color: #EB02B4;
+  font-weight: bold; }
 
 @media (max-width: 575.98px) {
   .headerLogo {

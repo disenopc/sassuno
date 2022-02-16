@@ -1,14 +1,20 @@
-/*FOOTER*/
-
-.footerFinP {
-    background-image: url(../images/grisclaro-opt.jpg);
-    background-size: cover;
-    .seguimeEnRedesDos {
-        font-weight: bold;
-        font-size: 25px;
-        color: $amarillo;
-        .footerLogo {
-            width: 200px;
-        }
-    }
-}
+                                        /*FOOTER*/
+                                        
+                                        @import"colores";
+                                        .footerFinP {
+                                            background-image: url(../images/grisclaro-opt.jpg);
+                                            background-size: cover;
+                                            .seguimeEnRedesDos {
+                                                font-weight: bold;
+                                                font-size: 25px;
+                                                color: $amarillo;
+                                                .footerLogo {
+                                                    width: 200px;
+                                                }
+                                            }
+                                        }
+                                        
+                                        .seguimeEnRedesDosA {
+                                            color: $rosa;
+                                            font-weight: bold;
+                                        }
