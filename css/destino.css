@@ -212,3 +212,30 @@ body {
 #titulos {
   font-family: "raleway";
   font-size: 85px; }
+
+/*Servicios*/
+.cardsContenedor {
+  width: 100%; }
+  .cardsContenedor .cards {
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    margin: 2% 2% 2% 5%;
+    padding: 0;
+    display: inline-block; }
+    .cardsContenedor .cards:hover {
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+      transform: scale(1.03);
+      cursor: pointer; }
+      .cardsContenedor .cards:hover .cards img {
+        width: 20px; }
+        .cardsContenedor .cards:hover .cards img .cards h3 {
+          text-align: center; }
+          .cardsContenedor .cards:hover .cards img .cards h3 .cards a {
+            display: inline-block; }
+
+.cards #serviciosFooter {
+  margin-top: 20px; }
