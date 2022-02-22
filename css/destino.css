@@ -100,7 +100,17 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .quiensoy {
+    display: flex;
+    flex-direction: column; }
+  .columna {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: 25%; }
+    .columna .cards {
+      width: 70%; } }
 
 /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
 /*Variables de color*/
