@@ -103,14 +103,7 @@ header {
     justify-content: center; }
   .quiensoy {
     display: flex;
-    flex-direction: column; }
-  .columna {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    margin-left: 25%; }
-    .columna .cards {
-      width: 70%; } }
+    flex-direction: column; } }
 
 /*TRANSICIONES, TRANSFORMACIONES, ANIMACIONES*/
 /*Variables de color*/
