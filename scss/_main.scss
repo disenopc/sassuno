@@ -1,17 +1,17 @@
-     /*MAIN*/
-     
-     @import "colores";
-     .main {
-         background-image: url(../images/grisclaro-opt.jpg);
-         background-size: cover;
-         h1 {
-             color: $amarillo;
-             font-weight: bold;
-             .primerParrafo {
-                 font-size: 20px;
-                 margin-left: 55%;
-                 margin-right: 55%;
-                 margin-bottom: 0;
-             }
-         }
-     }
+/*MAIN*/
+
+@import "colores";
+.main {
+    background-image: url(../images/grisclaro-opt.jpg);
+    background-size: cover;
+    h1 {
+        color: $amarillo;
+        font-weight: bold;
+        .primerParrafo {
+            font-size: 20px;
+            margin-left: 55%;
+            margin-right: 55%;
+            margin-bottom: 0;
+        }
+    }
+}

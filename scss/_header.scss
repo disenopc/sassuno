@@ -1,19 +1,19 @@
-    @import "colores";
-    /*HEADER*/
-    
-    header {
-        background-image: url(../images/grisclaro-opt.jpg);
-        background-size: cover;
-        .headerLogo {
-            width: 200px;
-            margin-left: 20px;
-            #menu li a {
-                font-size: 18px;
-                color: $gris;
-                #menu button {
-                    font-size: 18px;
-                    font-weight: bold;
-                }
-            }
-        }
-    }
+  @import "colores";
+  /*HEADER*/
+  
+  header {
+      background-image: url(../images/grisclaro-opt.jpg);
+      background-size: cover;
+      .headerLogo {
+          width: 200px;
+          margin-left: 20px;
+          #menu li a {
+              font-size: 18px;
+              color: $gris;
+              #menu button {
+                  font-size: 18px;
+                  font-weight: bold;
+              }
+          }
+      }
+  }

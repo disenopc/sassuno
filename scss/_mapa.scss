@@ -1,14 +1,14 @@
-                @import "colores";
-                $redes :
-                /*clave : valor*/
-                
-                ( facebook: $amarillo, mail:$rosa, instagram:rgb(243, 218, 107), whatsapp: rgb(235, 123, 188));
-                //MAPS con each
-                //@each clave, valor in mapa{}
-                @each $name-color,
-                $bgcolor in $redes {
-                    .boton-#{$name-color} {
-                        background-color: $bgcolor;
-                        border: $bgcolor;
-                    }
-                }
+ @import "colores";
+ $redes :
+ /*clave : valor*/
+ 
+ ( facebook: $amarillo, mail:$rosa, instagram:rgb(243, 218, 107), whatsapp: rgb(235, 123, 188));
+ //MAPS con each
+ //@each clave, valor in mapa{}
+ @each $name-color,
+ $bgcolor in $redes {
+     .boton-#{$name-color} {
+         background-color: $bgcolor;
+         border: $bgcolor;
+     }
+ }

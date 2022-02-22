@@ -38,8 +38,7 @@ header {
     padding: 25px; }
 
 .imagenes :hover {
-  transform: scale(1.2);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }
+  transform: scale(1.2); }
 
 /*REDIRECCION CONTACTO*/
 /*Variables de color*/
@@ -114,37 +113,6 @@ header {
 .nav-link:hover {
   font-weight: bold;
   color: #EBC81A; }
-
-nav-item a::before, nav-item a::after {
-  content: '';
-  height: 14px;
-  width: 14px;
-  position: absolute;
-  transition: all .35s ease;
-  opacity: 0; }
-
-nav-item a::before {
-  content: '';
-  right: 0;
-  top: 0;
-  border-top: 3px solid #3E8914;
-  border-right: 3px solid #2E640F;
-  transform: translate(-100%, 50%); }
-
-nav-item a:after {
-  content: '';
-  left: 0;
-  bottom: 0;
-  border-bottom: 3px solid #2E640F;
-  border-left: 3px solid #3E8914;
-  transform: translate(100%, -50%); }
-
-nav-item a:hover:before, nav-item a:hover:after {
-  transform: translate(0, 0);
-  opacity: 1; }
-
-nav-item a:hover {
-  color: #3DA35D; }
 
 .redes:hover {
   width: 50px;
